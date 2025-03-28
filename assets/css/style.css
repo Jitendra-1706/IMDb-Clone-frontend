@@ -1,4 +1,4 @@
-nav{
+nav .colour{
     background-color: #121212;
 }
 
@@ -35,4 +35,27 @@ nav .nav-item .nav-link .active{
 margin:  3px 15px;
 
 }
+
+.s-items{
+    width: 400px;
+}
+
+.card-color{
+    background-color:rgba(26, 26, 26, 1);
+}
+
+.card-btn-style{
+    background-color:rgba(44, 44, 44, 1);
+border-radius: 18px;
+width: 135px;
+}
+.card-btn-style:hover{
+    background-color:rgb(54, 54, 54);
+    transition: all 0.3s ease-in-out;
+}
+
+/* .book-svg{
+ font-size: 40px;
+ border: none;
+} */
 

@@ -36,13 +36,14 @@
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <div class="dropdown">
-            <button class="btn btn-secondary" type="button"
+          <div class="dropdown bg-black">
+            <button class="btn text-white fw-bold d-flex justify-content-center  align-items-center me-3" type="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-list fs-4"></i>
-              Menu
+              <i class="bi bi-list fs-2"></i>
+             <span class="fs-4"> Menu</span>
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -52,8 +53,8 @@
           </div>
 
           <!-- search -->
-          <div class="input-group mb-3 w-50">
-            <button class="btn btn-outline-secondary dropdown-toggle"
+          <div class="input-group mb-3 mt-3 w-50 ">
+            <button class="btn btn-outline-secondary dropdown-toggle "
               type="button" data-bs-toggle="dropdown"
               aria-expanded="false">All</button>
             <ul class="dropdown-menu">
@@ -69,17 +70,18 @@
           <!-- search -->
 
           <!-- nav -->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><i
-                  class="bi bi-bookmark-plus-fill"></i> Watchlist</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="register.html">Sign In</a>
-            </li>
-            <!-- nav -->
-
-          </ul>
+          <div class="s-items ">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i
+                    class="bi bi-bookmark-plus-fill"></i> Watchlist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Sign In</a>
+              </li>
+            </ul>
+          </div>
           <!-- <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -161,7 +163,8 @@
           <div class="row text-light">
             <!-- for image section -->
             <div class="col-sm-12 col-md-4">
-              <img src="./assets/images/Netflix-One-Piece.webp" alt="One piece"
+              <img src="./assets/images/one piece live action-poster.avif"
+                alt="One piece"
                 class="img-fluid rounded">
             </div>
 
@@ -194,48 +197,378 @@
           </div>
           <!-- row 1 ends -->
 
+          <!-- row 2 start -->
+          <div class="row text-light">
+            <!-- for image section -->
+            <div class="col-sm-12 col-md-4">
+              <img src="./assets/images/one piece live action-poster.avif"
+                alt="One piece"
+                class="img-fluid rounded">
+            </div>
 
-            <!-- row 2 start -->
-            <div class="row text-light">
-              <!-- for image section -->
-              <div class="col-sm-12 col-md-4">
-                <img src="./assets/images/Netflix-One-Piece.webp" alt="One piece"
-                  class="img-fluid rounded">
+            <!-- content -->
+            <div class="col-sm-12 col-md-8">
+              <div>
+                <a href="#" class="nav-link">
+                  <span><i class="bi bi-play-circle"></i></span>
+                  <span>4:1</span>
+                </a>
               </div>
-  
-              <!-- content -->
-              <div class="col-sm-12 col-md-8">
-                <div>
-                  <a href="#" class="nav-link">
-                    <span><i class="bi bi-play-circle"></i></span>
-                    <span>4:1</span>
-                  </a>
-                </div>
-  
-                <div>
-  
-                  <p>One piece live action Series
-                    <span> Up coming</span>
-                  </p>
-  
-                </div>
-  
-                <div>
-                  <span>
-  
-                    <i class="bi bi-hand-thumbs-up"></i>100
-                    <i class="bi bi-heart-fill"></i>200
-                  </span>
-  
-                </div>
+
+              <div>
+
+                <p>One piece live action Series
+                  <span> Up coming</span>
+                </p>
+
+              </div>
+
+              <div>
+                <span>
+
+                  <i class="bi bi-hand-thumbs-up"></i>100
+                  <i class="bi bi-heart-fill"></i>200
+                </span>
+
               </div>
             </div>
-            <!-- row 2 ends -->
+          </div>
+          <!-- row 2 ends -->
 
-            <h4>Browse Trailers</h4>
+          <h4>Browse Trailers</h4>
         </div>
       </div>
     </div>
+
+    <!-- section for photos of celebrity -->
+
+    <div class="container-fluid mt-5 text-light">
+      <h3 class="text-light">Most popular celebrities <i
+          class="bi bi-chevron-right text-warning fw-bold"></i></h3>
+
+      <div class="rank text-warning mb-3">
+        <span class="me-5">Top Ranking</span>
+        <span>By Ranking</span>
+      </div>
+
+      <div class="row">
+        <!-- for image section -->
+
+        <!-- image 1 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/Appu.jpeg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>25 (<i class="bi bi-caret-up-fill"></i>
+              5,345)</span>
+            <span>Puneeth Rajkumar</span>
+          </p>
+        </div>
+        <!-- image 1 end -->
+
+        <!-- image 2 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/shi.jpg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>55 (<i class="bi bi-caret-up-fill"></i>
+              7,345)</span>
+            <span>Shivrajkumar</span>
+          </p>
+        </div>
+        <!-- image 2 end -->
+
+        <!-- image 3 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/chris-evans.jpg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>25 (<i class="bi bi-caret-up-fill"></i>
+              545)</span>
+            <span>Chris Evans</span>
+          </p>
+        </div>
+        <!-- image 3 end -->
+
+        <!-- image 4 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/th.jpeg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>22 (<i class="bi bi-caret-up-fill"></i>
+              4,445)</span>
+            <span>Chris Hemsworth
+              </span>
+          </p>
+        </div>
+        <!-- image 4 end -->
+
+        <!-- image 5 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/iron.jpg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>20 (<i class="bi bi-caret-up-fill"></i>
+              2,345)</span>
+            <span>Robert Downey Jr.
+              </span>
+          </p>
+        </div>
+        <!-- image 5 end -->
+
+        <!-- image 6 start -->
+        <div
+          class="col-sm-12 col-md-2 d-flex flex-column justify-content-center justify-content-center">
+          <img class="rounded-circle" src="./assets/images/hR.jpg" alt>
+          <p class="text-center d-flex flex-column">
+            <span class>25 (<i class="bi bi-caret-up-fill"></i>
+              5,345)</span>
+            <span>Hrithik Roshan</span>
+          </p>
+        </div>
+        <!-- image 6 end -->
+
+      </div>
+    </div>
+    <!-- section for photos of celebrity end  -->
+
+
+    <!-- card section -->
+    <div class="container-fluid mt-5">
+      <div class="text-warning">
+        <h1>What to watch</h1>
+      </div>
+
+      <div class="text-light">
+        <h3>Top Pics <i class="bi bi-chevron-right text-warning"></i></h3>
+        <p>TV shows and movies just for you</p>
+      </div>
+
+      <div class="mb-4">
+        <a href="register.html">Sign in</a>
+      </div>
+
+      <div class="row">
+        <!-- card 1 start -->
+        <div class="col-sm-12 col-md-2 mb-5 h-100 d-flex flex-column">
+          <div class="card border-0 ">
+            <img src="./assets/images/one piece live action-poster.avif" 
+              alt="Card image cap"
+              class="card-img-top" >
+            <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">One Piece live action Series</h5>
+              <!-- <p class="card-text">Upcoming</p> -->
+              <div class="mt-auto text-center">
+
+                <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                <p class="mt-3 mb-3 fw-bold">
+                  <span><i class="bi bi-play-fill"></i> Trailer <i
+                      class="bi bi-exclamation-circle ms-4"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 1 end -->
+
+        <!-- card 2 start -->
+        <div class="col-sm-12 col-md-2 mb-5  ">
+          <div class="card border-0 h-100 d-flex flex-column">
+            <img src="./assets/images/Death Note Light Yagami Anime Merch Cool Wall Decor Art Print Poster 24x36.jpeg"
+              alt="Card image cap"
+              class="card-img-top">
+            <div class="card-body card-color text-light rounded-bottom he-card d-flex flex-column ">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.9 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">Death note</h5>
+
+               <div class="mt-auto text-center">
+
+                 <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                 <p class="mt-3 mb-3 fw-bold">
+                   <span><i class="bi bi-play-fill"></i> Trailer <i
+                       class="bi bi-exclamation-circle ms-4"></i></span>
+                 </p>
+               </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 end -->
+
+        <!-- card 3 start -->
+        <div class="col-sm-12 col-md-2 mb-5 h-100 d-flex flex-column">
+          <div class="card border-0 ">
+            <img src="./assets/images/Naruto Shippuden Naruto Sakura Kakashi Poster.jpeg"
+              alt="Card image cap"
+              class="card-img-top">
+            <div class="card-body card-color text-light rounded-bottom d-flex flex-column ">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">Naruto Shippuden</h5>
+              <!-- <p class="card-text">Upcoming</p> -->
+              <div class="mt-auto text-center">
+
+                <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                <p class="mt-3 mb-3 fw-bold">
+                  <span><i class="bi bi-play-fill"></i> Trailer <i
+                      class="bi bi-exclamation-circle ms-4"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 end -->
+
+        <!-- card 4 start -->
+        <div class="col-sm-12 col-md-2 mb-5 ">
+          <div class="card border-0 h-100 d-flex flex-column">
+            <img src="./assets/images/POSTERS ANIME COLLECTION - Nagi Design.jpeg"
+              alt="Card image cap"
+              class="card-img-top">
+            <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">Bleach</h5>
+              <!-- <p class="card-text">Upcoming</p> -->
+              <div class="mt-auto text-center">
+
+                <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                <p class="mt-3 mb-3 fw-bold">
+                  <span><i class="bi bi-play-fill"></i> Trailer <i
+                      class="bi bi-exclamation-circle ms-4"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 end -->
+
+        <!-- card 5 start -->
+        <div class="col-sm-12 col-md-2 mb-5 ">
+          <div class="card border-0 h-100 d-flex flex-column">
+            <img src="./assets/images/super broly-poster.jpg"
+              alt="Card image cap"
+              class="card-img-top">
+            <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">Dragon Ball Super Broly</h5>
+              <!-- <p class="card-text">Upcoming</p> -->
+              <div class="mt-auto text-center">
+
+                <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                <p class="mt-3 mb-3 fw-bold">
+                  <span><i class="bi bi-play-fill"></i> Trailer <i
+                      class="bi bi-exclamation-circle ms-4"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 5 end -->
+
+        <!-- card 6 start -->
+        <div class="col-sm-12 col-md-2 mb-5 ">
+          <div class="card border-0 h-100 d-flex flex-column">
+            <img src="./assets/images/Misfit.jpeg"
+              alt="Card image cap"
+              class="card-img-top">
+            <div class="card-body card-color text-light rounded-bottom d-flex flex-column">
+              <span><i class="bi bi-star-fill text-warning"></i> 8.5 <i
+                  class="bi bi-star text-primary ms-3"></i></span>
+              <h5 class="card-title mt-2 mb-4">One Piece live action Series</h5>
+              <!-- <p class="card-text">Upcoming</p> -->
+              <div class="mt-auto text-center">
+
+                <a href="#" class="btn text-primary card-btn-style ">Watch Now</a>
+                <p class="mt-3 mb-3 fw-bold">
+                  <span><i class="bi bi-play-fill"></i> Trailer <i
+                      class="bi bi-exclamation-circle ms-4"></i></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 6 end -->
+
+      </div>
+    </div>
+
+    <!-- card section end-->
+
+
+    <!-- bookmark section  -->
+    <div class="container-fluid text-light">
+    <div class="text-light">
+      <h3>From Your Watch list<i class="bi bi-chevron-right fw-bold "></i></h3>
+    </div>
+
+
+      <div class="text-center mb-5">
+        <p><i class="bi bi-bookmark-plus book-svg fs-2"></i></p>
+        <p class="fw-bold mb-0">Sign in to access your Watchlist</p>
+        <p>Save shows and movies to keep track of what you want to watch.</p>
+        <a href="#" class="btn text-primary card-btn-style mt-4 ">Watch Now</a>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
