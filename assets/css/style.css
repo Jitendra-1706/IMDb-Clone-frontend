@@ -2,6 +2,10 @@ nav .colour{
     background-color: #121212;
 }
 
+.col-1a{
+    background-color: #1a1a1a;
+}
+
 nav .nav-item .nav-link{
     color: #fff;
 }
@@ -12,6 +16,22 @@ nav .nav-item .nav-link .active{
     color: white !important;
 }
 
+
+.bar-height{
+/* height: 40px; */
+width: 23px;
+  
+}
+
+.bookmark-height{
+  width: 35px;
+  
+}
+
+.mini-bar{
+    height: 25px;
+    
+}
 
 /* utility classes */
 /* .link-buttons{
@@ -83,5 +103,77 @@ width: 135px;
     font-size: 50px;
     border: none;
   }
+
+  .position-absolute-bookmark{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33px;
+    opacity: 0.8;
+  }
   
+  .hover-trailer:hover{
+
+cursor: pointer;
+background-color: #2b2a2a;
+
+  }
+
+  .hover-trailer{
+border-radius: 23px;
+width: 100px;
+height: 40px;
+  }
+
+  .hover-exclaim{
+height: 40px;
+width: 40px;
+background-color: #1a1a1a;
+border: none;
+  }
+
+  .hover-exclaim:hover{
+    cursor: pointer;
+    background-color: #2b2a2a;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .popular-interest-text{
+padding: 7px !important;
+  }
+  .popular-interest-text p:hover{
+    text-decoration: underline;
+  }
+
+.exclusive-position{
+    position: relative;
+}
+
+  .play-circle-s{
+    position: absolute !important;
+    bottom: 115px;
+    left: 20px;
+  }
+
+  .exclusive-position img {
+    width: 100%; /* Ensures it fits within its column */
+    /* Limits how large the image can get */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+  }
+
+  .exclusive-videos a .play-circle-s:hover{
+    color: #f5c518 !important;
+
+  }
+
+  .link-ex-videos:hover{
+text-decoration: underline;
+  }
+
+.rotate-i{
+    transform: rotate(140deg);
+}
+
 
