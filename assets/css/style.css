@@ -163,6 +163,15 @@ padding: 7px !important;
     margin: 0 auto; /* Centers the image */
   }
 
+  .fit-img{
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; */
+    max-height: 250px;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+  }
+
   .exclusive-videos a .play-circle-s:hover{
     color: #f5c518 !important;
 
