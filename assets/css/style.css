@@ -177,6 +177,15 @@ padding: 7px !important;
 
   }
 
+  /* to fit exclusive videos images  */
+  .exclusive-videos img {
+    width: 100%; /* Makes images fill the container */
+    height: 250px; /* Ensures all images have the same height */
+    object-fit: cover; /* Prevents distortion and crops excess */
+    border-radius: 10px; /* Optional: Makes corners rounded */
+}
+
+
   .link-ex-videos:hover{
 text-decoration: underline;
   }
@@ -186,3 +195,32 @@ text-decoration: underline;
 }
 
 
+.f-max{
+  max-width: 75vw;
+}
+.footer-border{
+  width: 450px !important;
+  border: 2px solid white !important;
+  height: 100px !important;
+  border-radius: 15px !important;
+  border-color: #272727 !important;
+
+}
+
+.social{
+  display: flex;
+  gap: 50px !important;
+}
+
+.qr-code{
+  font-size: 60px;
+}
+
+.amazon-img{
+width: 70px !important;
+}
+.marr{
+  margin-top: 13px !important;
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
