@@ -225,7 +225,38 @@ height: 40px !important;
     width: 100px;
     border-radius: 50%;
 }
+.transparent-img-bleach{
+    position: absolute;
+    opacity: 0.8;
+    top: 235px;
+    left: -11px;
+}
+.transparent-img-dn{
+    position: absolute;
+    opacity: 0.8;
+    top: 163px;
+    left: -11px; 
+}
 
+.transparent-img-misfit{
+    position: absolute;
+    opacity: 0.8;
+    top: 176px;
+    left: -11px; 
+}
+
+.transparent-img-naruto{
+    position: absolute;
+    opacity: 0.8;
+    top: 162px;
+    left: -10px; 
+}
+.transparent-img-op{
+    position: absolute;
+    opacity: 0.8;
+    top: 163px;
+    left: -11px;
+}
 @media (max-width: 768px) {
     #section-img {
         height: auto; /* Adjust for mobile */
