@@ -5,6 +5,12 @@ nav .colour{
 .col-1a{
     background-color: #1a1a1a;
 }
+.col-1a img{
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
 nav .nav-item .nav-link{
     color: #fff;
@@ -182,7 +188,7 @@ padding: 7px !important;
     width: 100%; /* Makes images fill the container */
     height: 250px; /* Ensures all images have the same height */
     object-fit: cover; /* Prevents distortion and crops excess */
-    border-radius: 10px; /* Optional: Makes corners rounded */
+    border-radius: 5px; /* Optional: Makes corners rounded */
 }
 
 
@@ -212,6 +218,11 @@ text-decoration: underline;
   gap: 50px !important;
 }
 
+.paddind-f{
+  padding-left: 100px !important;
+}
+
+
 .qr-code{
   font-size: 60px;
 }
@@ -223,4 +234,20 @@ width: 70px !important;
   margin-top: 13px !important;
   margin-left: 2px !important;
   margin-right: 2px !important;
+}
+
+@media (max-width: 768px) {
+/* .footer-items{
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+
+width: auto !important;
+} */
+
+.paddind-f{
+  padding-left: 0 !important;
+width: 100%;
+}
+
 }
